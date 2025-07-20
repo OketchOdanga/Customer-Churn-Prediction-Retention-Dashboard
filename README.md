@@ -1,8 +1,3 @@
-Great! Here's a **comprehensive `README.md`** for your **Customer Churn Prediction & Retention Dashboard** project. It includes project overview, setup, usage, and future improvements.
-
----
-
-```markdown
 # 🧠 Customer Churn Prediction & Retention Dashboard
 
 This project is a complete machine learning pipeline designed to **predict bank customer churn** and generate actionable **retention strategies**. It also includes a rich, interactive **dashboard** for customer analytics and SHAP-based explainability.
