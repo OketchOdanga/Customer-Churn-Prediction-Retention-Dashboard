@@ -5,7 +5,7 @@ def preprocess_data(filepath):
     df = pd.read_csv(filepath)
 
     # Drop unused columns
-    df.drop(['RowNumber', 'CustomerId', 'Surname'], axis=1, inplace=True)
+    df.drop(['RowNumber', 'Surname'], axis=1, inplace=True)
 
     # Encode categorical features
     label_encoders = {}
