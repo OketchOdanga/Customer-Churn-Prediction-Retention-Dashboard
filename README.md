@@ -65,13 +65,4 @@ Based on churn probability and balance:
 * Python 3.9+
 * Libraries: `xgboost`, `shap`, `pandas`, `streamlit`, `scikit-learn`, `matplotlib`
 
----
-
-## 📈 Future Improvements
-
-* Deploy the dashboard with Streamlit Cloud or HuggingFace Spaces
-* Add customer segmentation with clustering
-* Enable email notifications for high-churn-risk customers
-* Integrate voice support for real-time customer service tools
-* Connect to live databases or CRM systems
 
