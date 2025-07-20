@@ -28,89 +28,6 @@ Churn prediction helps businesses identify customers who are likely to leave, en
 
 ---
 
-## 📁 Directory Structure
-
-```
-
-Customer-Churn-Prediction-Retention-Dashboard/
-│
-├── data/
-│   └── processed/
-│       ├── churn\_scored\_customers.csv
-│       ├── retention\_plan.csv
-│       └── shap\_values.csv
-│
-├── models/
-│   └── churn\_model.pkl
-│
-├── dashboard/
-│   └── dashboard.py
-│
-├── scripts/
-│   ├── train\_model.py
-│   ├── score\_customers.py
-│   ├── generate\_retention\_plan.py
-│   └── compute\_shap.py
-│
-├── requirements.txt
-└── README.md
-
-````
-
----
-
-## ⚙️ Setup Instructions
-
-1. **Clone the repo**
-```bash
-git clone https://github.com/your-username/churn-dashboard.git
-cd churn-dashboard
-````
-
-2. **Create and activate virtual environment**
-
-```bash
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-```
-
-3. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-4. **Prepare your data**
-
-Use the `Churn Bank Dataset` in CSV format with columns like:
-`CreditScore, Geography, Gender, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary, Exited`
-
-Place it in: `data/raw/churn_bank.csv`
-
-5. **Run scripts step-by-step**
-
-```bash
-# Phase 1 - Train and save model
-python scripts/train_model.py
-
-# Phase 2 - Score customers
-python scripts/score_customers.py
-
-# Phase 3 - Generate retention plan
-python scripts/generate_retention_plan.py
-
-# Phase 4 - Compute SHAP values
-python scripts/compute_shap.py
-```
-
-6. **Run the Streamlit dashboard**
-
-```bash
-streamlit run dashboard/dashboard.py
-```
-
----
-
 ## 📊 Dashboard Features
 
 * **Filters**: Geography, Gender, Credit Score, Churn probability
@@ -157,16 +74,4 @@ Based on churn probability and balance:
 * Enable email notifications for high-churn-risk customers
 * Integrate voice support for real-time customer service tools
 * Connect to live databases or CRM systems
-
----
-
-## 🙌 Credits
-
-Built with ❤️ as part of an AI/ML learning journey on churn analytics and dashboard development.
-
----
-
-## 📄 License
-
-This project is open-source under the MIT License.
 
