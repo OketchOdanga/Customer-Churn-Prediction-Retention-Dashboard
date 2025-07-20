@@ -65,4 +65,7 @@ Based on churn probability and balance:
 * Python 3.9+
 * Libraries: `xgboost`, `shap`, `pandas`, `streamlit`, `scikit-learn`, `matplotlib`
 
+---
+## Live Preview
+https://shiny-palm-tree-gvg4rv95rvgfx6-8501.app.github.dev/
 
