@@ -67,5 +67,5 @@ Based on churn probability and balance:
 
 ---
 ## Live Preview
-https://shiny-palm-tree-gvg4rv95rvgfx6-8501.app.github.dev/
+[https://shiny-palm-tree-gvg4rv95rvgfx6-8501.app.github.dev/](https://customer-churn-prediction-retention-dashboard-jzqdzugaaqosatfn.streamlit.app/)
 
